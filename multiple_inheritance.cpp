@@ -44,10 +44,23 @@ void student_marks::get_marks(){
     avg = total/3;
 
 }
+void Student::show(){
+    cout<<endl<<endl;
+    cout<<"--------------Result Sheet----------------"<<endl;
+    cout<<"Your name is: " << name <<endl;
+    cout<<"Your student ID is: " << roll <<endl;
+}
+void student_marks::show_marks(){
+    cout<<"Your total Marks is: " << total <<endl;
+    cout<<"Average mark is: " << avg <<endl;
+    cout<<"-------------------------------------------";
+}
 int main(){
     result res;
     res.getdata();
     res.get_marks();
+    res.show();
+    res.show_marks();
     // res.show();
     // res.marks();
 }
