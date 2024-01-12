@@ -13,7 +13,7 @@ class Student{
             id = x.id;
         }
         void display(void){
-            cout<<id;
+            cout<<id<<endl;
         }
 };
 int main(){
@@ -23,11 +23,11 @@ int main(){
    Student d;
    d = a;
 
-   cout<<"Id of A: ";
+   cout<<"Id of A: "<<endl;
    a.display();
-   cout<<"Id of B: ";
+   cout<<"Id of B: "<<endl;
    b.display();
-   cout<<"Id of C: ";
+   cout<<"Id of C: "<<endl;
    c.display();
 
 }
