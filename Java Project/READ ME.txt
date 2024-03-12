@@ -1,0 +1,4 @@
+Sir as you said i have made the programe so it will show the gui of 5 animal which are :
+Ant, butterfly, Deer, Cow, Leopard.
+
+rest of the animals will be shown in the compiler but no GUI have been implemented for them
